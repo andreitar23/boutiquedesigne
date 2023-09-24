@@ -1,0 +1,65 @@
+
+@import url("/assets/css/index/header.main.style.css");
+@import url("/assets/css/index/footer.style.css");
+@import url("/assets/css/index/main.style.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+
+
+*,
+html {
+    margin: 0rem;
+    padding: 0 rem;
+    scroll-behavior: smooth;
+
+}
+
+
+:root {
+    /*altura*/
+    --root-h: 100svh;
+    font-size: 20px;
+
+    /*colores*/
+    --color-main: #4D455D;   
+    --color-sec: #E96479;   
+    --color-inver:#F5E9CF;    
+    --color-detalles: #7DB9B6;   
+
+
+    /*FUENTES*/
+    --font-deco3:'Fuggles', cursive;
+    --font-deco2:'Croissant One', cursive;
+    --font-deco: 'Special Elite', cursive;
+    --font-base: Verdana, Geneva, Tahoma, sans-serif;
+    --font-custom: "Noto Sans JP", sans-serif;
+    --font-custom-2: "Caveat", cursive;
+    --color-font: rgb(255, 255, 255);
+
+}
+
+:root:has(.theme [value="dark"]:checked) {
+    --bg: hsl(200 50% 5%);
+    --fg: hsl(200 10% 98%);
+}
+
+:root:has(.theme [value="light"]:checked) {
+    --bg: hsl(200 10% 92%);
+    --fg: hsl(200 50% 10%);
+}
+
+
+body {
+    height: var(--root-h);
+    font-family: var(--font-base);
+    font-weight: 900;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    color: var(--color-main);
+}
+
+

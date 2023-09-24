@@ -1,0 +1,29 @@
+
+main {
+    height: 70%;
+}
+
+main>section>p{
+    font-family: var(--font-deco3);
+    font-size: 50px;
+    padding: 0rem;
+    margin: 3rem;
+    position: relative;
+    text-align: justify;
+}
+
+main>section>h2{
+    font-family: var(--font-deco2);
+    font-size: 30px;
+    padding: 0rem;
+    margin: 3rem;
+
+}
+
+main>section:nth-child(2){
+
+    background-color: var(--color-detalles);
+}
+
+
+

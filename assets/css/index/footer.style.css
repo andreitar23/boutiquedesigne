@@ -1,0 +1,7 @@
+footer {
+
+    height: 10%;
+    background-color: var(--color-main);
+    color: var(--color-inver);
+    font-family: var(--font-custom);
+}
